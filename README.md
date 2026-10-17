@@ -26,7 +26,7 @@ AITFは、こうした差異と、分析に用いる前提・依存関係を保�
 | --- | --- | --- |
 | [AITF Core](CANON/AITF_Core.md) | 0.4.0 | 共通の基礎前提・規定・分析規約を定めるCANON |
 | [AITF Standard](CANON/AITF_Standard.md) | 0.2.0 | Coreを前提に、AITF分析の共通規律を定めるCANON |
-| [AITF Core Support](SUPPORT/AITF_Core_Support.md) | 0.3.2 | Coreの設計理由・背景・代替案・検討結果を保持する非CANON文書 |
+| [AITF Core Support](SUPPORT/AITF_Core_Support.md) | 0.3.3 | Coreの設計理由・背景・代替案・検討結果を保持する非CANON文書 |
 | [AITF Standard Support](SUPPORT/AITF_Standard_Support.md) | 0.1.2 | Standardの設計理由・削除テスト・検証例等を保持する非CANON文書 |
 
 CoreはAITF全体の共通基盤を担当し、Standardはそれを用いて分析するときの共通規律を担当する。
@@ -95,5 +95,5 @@ Standardも、推論・評価の一般理論、個別moduleの構造、具体的
 
 Core rev 0.4.0とStandard rev 0.2.0は、正式な現行基本版として `status: frozen`（現行として固定）とする。
 両文書の理論内容とrevisionは維持している。
-Core Support rev 0.3.2とStandard Support rev 0.1.2は、非CANONの補助文書として `status: draft`（変更可能）を維持する。
+Core Support rev 0.3.3とStandard Support rev 0.1.2は、非CANONの補助文書として `status: draft`（変更可能）を維持する。
 現行版としての固定は、上記の完成範囲や限界を変更するものではない。
